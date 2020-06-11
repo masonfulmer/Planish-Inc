@@ -1,0 +1,281 @@
+/*
+Filename: custom.css
+Version: 1.0
+Description: Custom CSS for Planish Inc. Website.
+Author: Mason Fulmer, mason_fulmer@yahoo.com, (503) 502-7138
+Date: 15 February 2020
+*/
+
+/*
+Colors:
+Gray: #1B1B1B
+White: #FFFFFF
+Dark Blue: #206CDC
+Lighter Blue: #206CDC
+Gray Border: #707070
+*/
+
+/*
+Fonts:
+Navbar: Segoe UI - Bold and Regular
+Hero Heading: Montserrat - Medium
+Hero Secondary: Segoe UI - Regular
+Headings: Montserrat
+Text: Segoe UI
+*/   
+
+/* custom font declarations */
+@font-face {
+	font-family: montserrat;
+	src: url("fonts/Montserrat-Regular.ttf");
+	font-weight: normal;
+}
+@font-face {
+	font-family: montserrat;
+	src: url("fonts/Montserrat-Bold.ttf");
+	font-weight: bold;
+}
+@font-face {
+	font-family: selawik;
+	src: url("fonts/selawk.ttf");
+	font-weight: normal;
+}
+@font-face {
+	font-family: selawik;
+	src: url("fonts/selawkb.ttf");
+	font-weight: bold;
+}
+
+/*=================reset styles=================*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+html, body {
+	font-family: selawik;
+	font-size: 15px;
+	background-color: #1B1B1B;
+	color: #FFFFFF;
+}
+/*=================navbar=================*/
+
+.bg-dark {
+	background-color: #1B1B1B !important;
+}
+.navbar-dark {
+	padding: 1em;
+	font-family: montserrat;
+	font-weight: regular;
+	color: #FFFFFF !important;
+	box-shadow: 0px 0px 5px #000000;
+}
+.navbar-dark a.navbar-brand {
+	font-weight: bold;
+	font-family: montserrat;
+	font-size: 20px;
+}
+.navbar-dark .dropdown-menu {
+	background-color: transparent;
+	padding: 0;
+}
+.navbar-dark .dropdown-item {
+	background-color: #343434;
+	color: #707070;
+	border: 1px solid #707070;
+}
+.navbar-dark .dropdown-item:hover {
+	background-image: linear-gradient(#206CDC, #487AC4);
+	background-color: #487AC4;
+	color: #FFFFFF;
+}
+.navbar-dark .btn {
+	background-image: linear-gradient(#206CDC, #487AC4);
+	background-color: #487AC4;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 25px;
+}
+.carousel-indicators {
+	margin-bottom: 5em;
+}
+/*=================content=================*/
+
+.btn {
+	background-image: linear-gradient(#206CDC, #487AC4);
+	background-color: #487AC4;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 25px;
+	padding: 10px;
+}
+.btn:hover {
+	background-color: #206CDC;
+	color: #000000;
+	transition: 0.3s;
+}
+
+.section {
+	border-bottom: 1px solid #707070;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+	padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	font-family: montserrat;
+	text-transform: uppercase;
+	padding-bottom: 1em;
+}
+
+/*=================hero carousel=================*/
+#MainCarousel {
+	margin-top: 0px;
+}
+
+#MainCarousel img {
+	height: auto;
+	width: 100% !important;
+	background-position: center;
+	filter: grayscale(10%) brightness(90%);
+}
+.carousel-caption {
+	top: 45% !important;
+	padding: 0;
+	text-shadow: 0px 0px 8px #000000;
+}
+.carousel-caption p {
+	font-size: 25px;
+}
+.hero-text {
+	font-size: 60px;
+	font-weight: bold;
+}
+/*=================main cards=================*/
+.info-card {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.info-card p {
+	font-size: 15px;
+}
+.card {
+	padding: 2em;
+	background-color: #1B1B1B;
+	border: none;
+	min-height: 100%;
+}
+.card-title {
+	border-bottom: 1px solid #707070;
+}
+.card-body btn {
+	vertical-align: bottom;
+}
+i {
+	color: white;
+	font-size: 40px;
+}
+/*=================services=================*/
+#services {
+	font-size: 2em;
+}
+.list-group {
+	background-color: #343434;
+}
+.list-group-item {
+	text-align: left;
+	background-color: #343434;
+	padding: 1em;
+	font-family: montserrat;
+	font-weight: regular;
+	color: #707070;
+	border: 10px solid #707070;
+}
+.list-group-item:hover {
+	background-image: linear-gradient(#206CDC, #487AC4);
+	background-color: #487AC4;
+	color: #FFFFFF;
+}
+a:hover{
+	text-decoration: none;
+}
+/*=================contact us=================*/
+#looking {
+	color: #FFFFFF;	
+	text-align: center;
+	padding: 0;
+	margin-top: 0.5em;
+	font-size: 25px;
+}
+#contactus{
+	color: #206CDC;
+	text-align: center;
+	font-size: 30px;
+}
+
+.form-control{
+	border-radius: 2em;
+	border: 1px solid #707070;
+	width: 75%;
+	margin: 0 auto;
+}
+.form-group input, .form-group textarea {
+	padding: 20px;
+}
+.form-group textarea {
+	width: 75%;
+}
+form .btn {
+	display: block;
+	margin: 0 auto;
+	width: 130px;
+}
+#emailHelp {
+	text-align: center;
+}
+/*=================our mission=================*/
+#mission {
+	font-size: 2em;
+}
+#name {
+	text-transform: none;
+	text-align: left;
+	color: #206CDC;
+	padding: 0;
+}
+.profile-pic {
+	float: left;
+	height: 120px;
+	width: 120px;
+	border: 2px solid #707070;
+	border-radius: 100%;
+	vertical-align: middle;
+}
+/*=================footer=================*/
+footer {
+	background-color: #1B1B1B;
+}
+footer ul li{
+	list-style-type: none;
+}
+
+#contact-right {
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
