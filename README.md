@@ -8,6 +8,10 @@ To view this project locally you'll need to have XAMPP with a WordPress site ins
 
 Additionally, you will need to import the .sql file for your WordPress database. Then upload the theme itself through the WordPress dashboard.
 
+# view
+
+If you want to see a hosted version of the site please go to https://planish-inc.com/
+
 # author
 
 Contact at mason_fulmer@yahoo.com
